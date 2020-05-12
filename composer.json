@@ -1,7 +1,15 @@
 {
     "name": "oksweb/sms-api-php",
-    "description": "PHP library for the OKSWeb SMS service.",
+    "license": "MIT",
+    "homepage": "https://oksweb.com",
     "type": "library",
+    "description": "PHP library for the OKSWeb SMS service.",
+    "keywords": [
+        "SMS",
+        "API",
+        "OKS",
+        "oksweb"
+    ],
     "authors": [
         {
             "name": "OKSWeb and contributors",
