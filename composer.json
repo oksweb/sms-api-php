@@ -1,11 +1,11 @@
 {
-    "name": "oksweb/sms-api",
-    "description": "OKSWeb SMS Library",
+    "name": "oksweb/sms-api-php",
+    "description": "PHP library for the OKSWeb SMS service.",
     "type": "library",
     "authors": [
         {
             "name": "OKSWeb and contributors",
-            "homepage": "https://github.com/oksweb/sms-php/contributors"
+            "homepage": "https://github.com/oksweb/sms-api-php/contributors"
         }
     ],
     "require": {
