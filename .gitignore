@@ -1,0 +1,19 @@
+# Mac OS X stuff
+.DS_Store
+
+# Dependencies
+/vendor/
+
+# If the vendor directory isn't being commited the composer.lock file should also be ignored
+composer.lock
+
+# PHPUnit coverage file and Cache
+clover.xml
+.phpunit.result.cache
+
+# IDE's configuration files
+.idea
+
+# PHP CS Fixer
+.php_cs
+.php_cs.cache
