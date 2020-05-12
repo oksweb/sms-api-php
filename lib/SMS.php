@@ -35,7 +35,7 @@ class SMS
     }
 
     /**
-     * @param integer $senderId
+     * @param int $senderId
      *
      * @return SMS
      */
@@ -73,7 +73,6 @@ class SMS
     }
 
     /**
-     *
      * @return bool
      */
     public function isUnicode()
