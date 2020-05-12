@@ -1,0 +1,21 @@
+<?php
+
+return PhpCsFixer\Config::create()
+    ->setRiskyAllowed(true)
+    ->setRules([
+        '@PSR2' => true,
+        '@PhpCsFixer' => true,
+        '@PhpCsFixer:risky' => true,
+        '@PHP56Migration:risky' => true,
+        '@PHPUnit57Migration:risky' => true,
+        'binary_operator_spaces' => array(
+            'align_double_arrow' => true,
+            'align_equals' => true,
+        ),
+        'fopen_flags' => true,
+        'linebreak_after_opening_tag' => true,
+        'native_function_invocation' => true,
+        'concat_space' => ['spacing' => 'one'],
+        'ordered_class_elements' => false,
+        'phpdoc_align' => false,
+    ]);

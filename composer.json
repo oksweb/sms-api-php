@@ -1,0 +1,26 @@
+{
+    "name": "oksweb/sms-api",
+    "description": "OKSWeb SMS Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "OKSWeb and contributors",
+            "homepage": "https://github.com/oksweb/sms-php/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "friendsofphp/php-cs-fixer": "2.16.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OKSWeb\\SMS\\": "lib/"
+        }
+    }
+}
